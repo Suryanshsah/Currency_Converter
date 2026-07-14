@@ -81,3 +81,54 @@ form button {
   font-size: 1.15rem;
   cursor: pointer;
 }
+
+
+suryansh was here
+footer {
+  margin-top: 2rem;
+  text-align: center;
+  font-family: sans-serif;
+  color: #333;
+  padding: 1rem 0;
+}
+
+footer p {
+  margin: 0 0 0.5rem 0;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+}
+
+footer strong {
+  color: #000;
+  font-weight: 600;
+}
+
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+
+.social-links a {
+  color: #555;
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+
+.social-links a:hover {
+  transform: translateY(-3px);
+}
+
+
+.social-links a:hover .fa-instagram {
+  color: #e1306c;
+}
+
+
+.social-links a:hover .fa-linkedin {
+  color: #0077b5;
+}
